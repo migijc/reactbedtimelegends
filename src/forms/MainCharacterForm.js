@@ -31,7 +31,7 @@ export default function MainCharacterForm({setMainCharacter}){
                     <input onChange={()=>setIsFormValid(formRef.current.checkValidity())} required={input.required} placeholder={input.placeholder} name={input.name}/>
                 )
             })}
-            <button type='button' onClick={handleSubmit}>Submit</button>
+            <button type='button' onClick={handleSubmit}>Next</button>
         </form>
     )
 }

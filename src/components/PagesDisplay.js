@@ -11,7 +11,7 @@ export default function PagesDisplay(props){
 
     for(let i = 0; i < pages; i++){
         console.log(i)
-        pageIcons.push( <div style={{backgroundColor: startIndex === i ? 'purple': 'transparent'}} className={`page-icon index${i}`}></div>)
+        pageIcons.push( <div style={{backgroundColor: startIndex === i ? 'white': 'transparent'}} className={`page-icon index${i}`}></div>)
     }
 
     return (

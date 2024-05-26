@@ -51,7 +51,7 @@ export default function FormattedStory({story}){
                 return (
                     <div key={i}  className={i===0 ? headerClass : null} onTouchStart={(e)=> handleTouchStart(e)} onTouchEnd={(e)=> handleTouchEnd(e)}>
                         <p>{paragraph}</p>
-                        {i===0 ? <p style={{color:'gray', fontSize:'.9rem', padding:'1rem'}}> Created on: {today.toDateString()}</p> : null}
+                        {i===0 ? <h2 style={{fontSize:'.9rem', padding:'1rem',}}> Created on: {today.toDateString()}</h2> : null}
                     </div>
                 )
             })}

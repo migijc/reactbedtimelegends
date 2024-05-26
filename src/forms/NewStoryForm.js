@@ -58,23 +58,4 @@ export default function NewStoryForm(props){
             {setting && !plotElements && <PlotElementsForm setPlotElements={setPlotElements} handleSubmit={handleSubmit}/>}
         </form>
     )
-
-
 }
-
-
-
-
-
-
-
-
-
-// {!mainCharacter && formSections[0].map(field => <input onChange={()=> setFormValid(formRef.current.checkValidity())} required placeholder={field.placeholder} name={field.name}/>)}
-// {formValid && <button type='button' onClick={(e)=> e.target}>Next</button>}
-
-
-            // <form method='POST' action='http://localhost:3000/storydata' ref={formRef} >
-      
-
-            // </form>
